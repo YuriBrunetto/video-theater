@@ -1,0 +1,1 @@
+chrome.runtime.onMessage.addListener(function(e,n,o){"clicked_browser_action"===e.message&&$(function(){var e=$("html"),n=$("video"),o="<div class='overlay'></div>",l=$(".overlay");0===l.length&&n.length>=-1&&(console.log(n.length,"entrou"),e.append(o))})});

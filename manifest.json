@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "Video Theater",
+    "version": "0.1",
+
+    "author": {
+        "name": "Yuri Brunetto",
+        "e-mail": "yuribrunetto@hotmail.com.br",
+        "website": "http://www.ybrntt.com.br"
+    },
+
+    "browser_action": {
+        "default_icon": "img/icon.png"
+    },
+
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": ["lib/jquery.js", "dist/app.js"],
+            "css": ["css/main.css"]
+        }
+    ],
+
+    "background": {
+        "scripts": ["dist/background.js"]
+    }
+}
