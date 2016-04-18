@@ -1,1 +1,1 @@
-chrome.runtime.onMessage.addListener(function(e,n,o){"clicked_browser_action"===e.message&&$(function(){var e=$("html"),n=$("video"),o="<div class='overlay'></div>",l=$(".overlay");0===l.length&&n.length>=-1&&(console.log(n.length,"entrou"),e.append(o))})});
+chrome.runtime.onMessage.addListener(function(e,n,i){if("clicked_browser_action"===e.message){var o={};o.init=function(){var e=$("html"),n=$("video"),i="<div class='overlay'></div>",o=$(".overlay");0===o.length&&n.length>=1&&(console.log(n.length,"entrou3"),e.append(i))},$(function(){o.init()})}});

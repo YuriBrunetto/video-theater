@@ -19,7 +19,9 @@ gulp.task("sass", function() {
 // js uglify
 gulp.task("js-uglify", function(){
     return gulp.src("./js/**/*.js")
-        .pipe(uglify())
+        .pipe(uglify().on("error", function(e){
+            console.log(e);
+        }))
         .pipe(gulp.dest("./dist"));
 });
 
