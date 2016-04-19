@@ -12,4 +12,4 @@ Upload extensions to the Google Chrome Store is a very long procediment and it c
 6. Done! :+1: 
 
 # License
-Yuri Brunetto &copy; [MIT](https://github.com/YuriBrunetto/video-theater/master/README.md)
+Yuri Brunetto &copy; [MIT](https://github.com/YuriBrunetto/video-theater/blob/master/LICENSE)
