@@ -17,4 +17,17 @@
         transform: translate(-50%, -50%);
         z-index: 2000;
     }
+
+    .close-btn {
+        width: 24px;
+        height: 24px;
+        display: block;
+        position: absolute;
+        right: 32px;
+        top: 32px;
+        color: #fff;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: bold;
+        font-size: 24px;
+    }
 }
